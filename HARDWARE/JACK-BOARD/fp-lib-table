@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name RPi_Pico)(type KiCad)(uri /home/jan/synth/RPi_Pico/VGA-KiCAD/VGA/RPi_Pico.pretty)(options "")(descr ""))
+  (lib (name JACK-BOARD)(type KiCad)(uri C:/Users/User/Documents/GITS/Repository/KOSMO-POLY6-JACKS/HARDWARE/JACK-BOARD.pretty)(options "")(descr ""))
 )

@@ -1,4 +1,4 @@
-19150724361970208
+19154148224106201
 AA-ROB-FULL
 5PIN_DIN_PCB
 
@@ -97,6 +97,13 @@ EVO62pos
 0
 0
 0
+AA-ROB-FULL
+FP-LED_D3.0mm
+LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
+LED diameter 5.0mm 2 pins
+0
+1
+1
 AA-ROB-FULL
 FP-LED_D5.0mm
 LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
@@ -376,7 +383,7 @@ MEGA2560PRO-EMBED
 
 0
 86
-82
+84
 AA-ROB-FULL
 MountingHole_FP_Slot
 Mounting Hole 3.2mm, M3, DIN965
@@ -55635,6 +55642,13 @@ L_Toroid Vertical series Radial pin pitch 31.80mm  length 67.6mm width 36.1mm Vi
 0
 2
 2
+JACK-BOARD
+Jack_6.5mmLMNC
+NMJ6HCD2, TRS 1/4in (http://www.neutrik.com/en/audio/plugs-and-jacks/m-series/nmj6hcd2)
+NMJ6HCD2 TRS stereo jack connector
+0
+5
+5
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
