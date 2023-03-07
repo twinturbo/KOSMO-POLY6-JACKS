@@ -5,6 +5,7 @@ This repository contains KICAD Schematics, PCB and front panel to build a 6 voic
 Other modules in the line up are
 
 - KOSMO-POLY6-PICO-DCO - Complete [ DCO ](https://github.com/twinturbo/KOSMO-POLY6-PICO-DCO)
+- KOSMO-POLY6-DRUID-DCO -(TBD).
 - KOSMO-POLY6-JACKS - Complete.
 - KOSMO-POLY6-MIX - In design.
 - KOSMO-POLY6-ADSR - In Production with JLCPCB.
