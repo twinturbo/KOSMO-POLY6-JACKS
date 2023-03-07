@@ -20,8 +20,8 @@ Other modules in the line up are
 ## Schematics and PCB
 Schematics and PCB are in KICAD format.
 
--Front Panel PCB [Front](https://github.com/twinturbo/KOSMO-POLY6-JACKS/tree/master/HARDWARE/FRONT-PANEL)
--Jack PCB [Jack](https://github.com/twinturbo/KOSMO-POLY6-JACKS/tree/master/HARDWARE/JACK-BAORD)
+- Front Panel PCB [Front](https://github.com/twinturbo/KOSMO-POLY6-JACKS/tree/master/HARDWARE/FRONT-PANEL)
+- Jack PCB [Jack](https://github.com/twinturbo/KOSMO-POLY6-JACKS/tree/master/HARDWARE/JACK-BAORD)
 
 Gerber files for the PCB can be found [here](HARDWARE\PCB-PRINTS).
 
