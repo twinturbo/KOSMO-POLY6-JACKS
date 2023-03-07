@@ -4,11 +4,11 @@ This repository contains KICAD Schematics, PCB and front panel to build a 6 voic
 
 Other modules in the line up are
 
-KOSMO-POLY6-PICO-DCO - Complete
-KOSMO-POLY6-MIX - In design
-KOSMO-POLY6-ADSR - In Production with JLCPCB
-KOSMO-POLY6-VCA - In design
-KOSMO-POLY6 Filter - (TBD)
+KOSMO-POLY6-PICO-DCO - Complete.
+KOSMO-POLY6-MIX - In design.
+KOSMO-POLY6-ADSR - In Production with JLCPCB.
+KOSMO-POLY6-VCA - In design.
+KOSMO-POLY6 Filter - (TBD).
 
 ## Key features
 
