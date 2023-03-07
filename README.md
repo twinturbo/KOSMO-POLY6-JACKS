@@ -9,6 +9,7 @@ Other modules in the line up are
 - KOSMO-POLY6-MIX - In design.
 - KOSMO-POLY6-ADSR - In Production with JLCPCB.
 - KOSMO-POLY6-VCA - In design.
+- KOSMO-POLY6-CONTROLS - (TBD).
 - KOSMO-POLY6 Filter - (TBD).
 
 ## Key features
