@@ -1,13 +1,14 @@
 # KOSMO-POLY6-JACKS
 
-This repository contains KICAD Schematics, PCB and front panel to build a 6 voice jack board for the "Polykit" Inspired 6 Channel Synth. The Jack board is intended as an output stage for the main DCO found here https://github.com/twinturbo/KOSMO-POLY6-PICO-DCO
+This repository contains KICAD Schematics, PCB and front panel to build a 6 voice jack board for the "Polykit" Inspired 6 Channel Synth in Kosmo Format as inspired by Look Mum No Computer LMNK. The Jack board is intended as an output stage for the main DCO found here https://github.com/twinturbo/KOSMO-POLY6-PICO-DCO
 
 Other modules in the line up are
 
-KOSMO-POLY6-MIX
-KOSMO-POLY6-ADSR
-KOSMO-POLY6-VCA
-KOSMO-POLY6 Filter (TBD)
+KOSMO-POLY6-PICO-DCO - Complete
+KOSMO-POLY6-MIX - In design
+KOSMO-POLY6-ADSR - In Production with JLCPCB
+KOSMO-POLY6-VCA - In design
+KOSMO-POLY6 Filter - (TBD)
 
 ## Key features
 
@@ -17,12 +18,12 @@ KOSMO-POLY6 Filter (TBD)
 - +5v, +3.3v , +12V , -12V power pass through ( board itself is passive )
 
 ## Schematics and PCB
+Schematics and PCB are in KICAD format.
 
-draft....
+Front Panle PCB [Front](https://github.com/twinturbo/KOSMO-POLY6-JACKS/tree/master/HARDWARE/FRONT-PANEL)
+Jack PCB [Jack](https://github.com/twinturbo/KOSMO-POLY6-JACKS/tree/master/HARDWARE/JACK-BAORD)
+
 Gerber files for the PCB can be found [here](HARDWARE\PCB-PRINTS).
-There are two .rar files to print. 
- 
-
 
 ## Pictures
 ![Kosmo DCO Jack PCB ](/Documentation/jack-pcb-V0.1.0.png)
@@ -30,7 +31,9 @@ There are two .rar files to print.
 
 
 ## References
-The Original 
-https://github.com/polykit/pico-dco
-
-
+The Original DCO Project [ Original ](https://github.com/polykit/pico-dco)
+The LMNC project thread [ Thread ](https://lookmumnocomputer.discourse.group/t/kosmoing-the-polykit-dco/5878)
+The LMNC Publising Thread [ Publish thread ](https://lookmumnocomputer.discourse.group/t/kosmo-poly6-releases/5962)
+Kosmo/LMNC forum [ Frorum Home ](https://lookmumnocomputer.discourse.group/)
+LMNC Webpage [ LMNC website](https://www.lookmumnocomputer.com/)
+LMNC Youtube [ LMNC Youetube] (https://www.youtube.com/c/LOOKMUMNOCOMPUTER/videos)
