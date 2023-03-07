@@ -33,7 +33,7 @@ Gerber files for the PCB can be found [here](HARDWARE\PCB-PRINTS).
 ## References
 - The Original DCO Project [ Original ](https://github.com/polykit/pico-dco)
 - The LMNC project thread [ Thread ](https://lookmumnocomputer.discourse.group/t/kosmoing-the-polykit-dco/5878)
-- The LMNC Publising Thread [ Publish thread ](https://lookmumnocomputer.discourse.group/t/kosmo-poly6-releases/5962)
+- The Publishing Thread of my POLY6 Modules [ Publish thread ](https://lookmumnocomputer.discourse.group/t/kosmo-poly6-releases/5962)
 - Kosmo/LMNC forum [ Frorum Home ](https://lookmumnocomputer.discourse.group/)
 - LMNC Webpage [ LMNC website](https://www.lookmumnocomputer.com/)
 - LMNC Youtube [ LMNC Youetube] (https://www.youtube.com/c/LOOKMUMNOCOMPUTER/videos)
