@@ -4,7 +4,7 @@ This repository contains KICAD Schematics, PCB and front panel to build a 6 voic
 
 Other modules in the line up are
 
-- KOSMO-POLY6-PICO-DCO - Complete [ DCO ] (https://github.com/twinturbo/KOSMO-POLY6-PICO-DCO)
+- KOSMO-POLY6-PICO-DCO - Complete [ DCO ](https://github.com/twinturbo/KOSMO-POLY6-PICO-DCO)
 - KOSMO-POLY6-JACKS - Complete.
 - KOSMO-POLY6-MIX - In design.
 - KOSMO-POLY6-ADSR - In Production with JLCPCB.
@@ -37,4 +37,4 @@ Gerber files for the PCB can be found [here](HARDWARE\PCB-PRINTS).
 - The Publishing Thread of my POLY6 Modules [ Publish thread ](https://lookmumnocomputer.discourse.group/t/kosmo-poly6-releases/5962)
 - Kosmo/LMNC forum [ Frorum Home ](https://lookmumnocomputer.discourse.group/)
 - LMNC Webpage [ LMNC website](https://www.lookmumnocomputer.com/)
-- LMNC Youtube [ LMNC Youetube] (https://www.youtube.com/c/LOOKMUMNOCOMPUTER/videos)
+- LMNC Youtube [ LMNC Youetube](https://www.youtube.com/c/LOOKMUMNOCOMPUTER/videos)
