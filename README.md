@@ -1,6 +1,6 @@
 # KOSMO-POLY6-JACKS
 
-This repository contains KICAD Schematics, PCB and front panel to build a 6 voice jack board for the "Polykit" Inspired 6 Channel Synth in Kosmo Format as inspired by Look Mum No Computer LMNK. The Jack board is intended as an output stage for the main DCO found here https://github.com/twinturbo/KOSMO-POLY6-PICO-DCO
+This repository contains KICAD Schematics, PCB and front panel to build a 6 voice jack board for the "Polykit" Inspired 6 Channel Synth in Kosmo Format [Look Mum No Computer LMNK] . The Jack board is intended as an output stage for the main DCO found here https://github.com/twinturbo/KOSMO-POLY6-PICO-DCO
 
 # KOSMO-POLY6
 The [POLY6](https://github.com/twinturbo/KOSMO-POLY6) GIT contains the details of the porject as a whole, this is one module.
