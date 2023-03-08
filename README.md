@@ -35,7 +35,7 @@ Schematics and PCB and front panle are in KICAD format.
 - Front Panel PCB [Front](https://github.com/twinturbo/KOSMO-POLY6-JACKS/tree/master/HARDWARE/FRONT-PANEL)
 - Jack PCB [Jack](https://github.com/twinturbo/KOSMO-POLY6-JACKS/tree/master/HARDWARE/JACK-BAORD)
 
-Gerber files for the PCB and Front Panel can be found here (https://github.com/twinturbo/KOSMO-POLY6-JACKS/tree/master/PCB-PRINTS).
+Gerber files for the PCB and Front Panel can be found here [PLOT](https://github.com/twinturbo/KOSMO-POLY6-JACKS/tree/master/PCB-PRINTS).
 
 ## Pictures
 ![Kosmo DCO Jack PCB ](/Documentation/jack-pcb-V0.1.0.png)
