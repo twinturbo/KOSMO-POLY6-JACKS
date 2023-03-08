@@ -18,7 +18,9 @@ Other modules in the line up are
 - KOSMO-POLY6-PG Programmer - (TBD)
 - KOSMO-POLY6-MetricST-Front-Panel - (TBD)
 
-# KOSMO-POLY-6 Details
+# KOSMO-POLY6-JACKS Details
+
+The JACKS module has no real use in the finished POLY6 design and can be left out, however it can be useful in testing. It could be employed where you need to jump from one case or shelf to another, where having two of these cross patched with standdard 1/4 Leads could be of use ( although power would still need fed to the rest of the modules. 
 
 ## Key features
 
