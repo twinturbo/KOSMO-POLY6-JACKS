@@ -30,12 +30,12 @@ The JACKS module has no real use in the finished POLY6 design and can be left ou
 - +5v, +3.3v , +12V , -12V power pass through ( board itself is passive )
 
 ## Schematics and PCB
-Schematics and PCB are in KICAD format.
+Schematics and PCB and front panle are in KICAD format.
 
 - Front Panel PCB [Front](https://github.com/twinturbo/KOSMO-POLY6-JACKS/tree/master/HARDWARE/FRONT-PANEL)
 - Jack PCB [Jack](https://github.com/twinturbo/KOSMO-POLY6-JACKS/tree/master/HARDWARE/JACK-BAORD)
 
-Gerber files for the PCB can be found [here](HARDWARE\PCB-PRINTS).
+Gerber files for the PCB and Front Panel can be found here (https://github.com/twinturbo/KOSMO-POLY6-JACKS/tree/master/PCB-PRINTS).
 
 ## Pictures
 ![Kosmo DCO Jack PCB ](/Documentation/jack-pcb-V0.1.0.png)
