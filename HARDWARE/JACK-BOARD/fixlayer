@@ -1,0 +1,19 @@
+FFAB=`cat *pcb | grep F.Fab | wc -l`
+BFAB=`cat *pcb | grep B.Fab | wc -l`
+echo ====================
+echo Front $FFAB 
+echo Layer Swap
+echo --------------------
+sed -i 's/F.Fab/F.SilkS/g' *pcb
+NFFAB=` cat *pcb | grep F.Fab | wc -l`
+echo Now Front $NFFAB
+echo ====================
+echo Back $BFAB
+echo Layer Swap
+echo --------------------
+sed -i 's/B.Fab/B.SilkS/g' *pcb
+NBFAB=`cat *pcb | grep B.Fab | wc -l`
+echo Now back $NBFAB
+echo ====================
+echo END
+

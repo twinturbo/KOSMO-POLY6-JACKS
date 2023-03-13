@@ -1,4 +1,6 @@
 (sym_lib_table
-  (lib (name RPi_Pico)(type Legacy)(uri /home/jan/synth/RPi_Pico/VGA-KiCAD/VGA/RPi_Pico.lib)(options "")(descr ""))
-  (lib (name pico-dco-rescue)(type Legacy)(uri ${KIPRJMOD}/pico-dco-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "RPi_Pico")(type "Legacy")(uri "/home/jan/synth/RPi_Pico/VGA-KiCAD/VGA/RPi_Pico.lib")(options "")(descr ""))
+  (lib (name "pico-dco-rescue")(type "Legacy")(uri "${KIPRJMOD}/pico-dco-rescue.lib")(options "")(descr ""))
+  (lib (name "KOSMO-POLY6-JACKS-rescue")(type "KiCad")(uri "${KIPRJMOD}/KOSMO-POLY6-JACKS-rescue.kicad_sym")(options "")(descr ""))
 )

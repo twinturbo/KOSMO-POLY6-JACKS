@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "KOSMO-POLY6-JACKS "
 Date "2023-03-06"
-Rev "v0.1.0"
+Rev "v0.1.1"
 Comp "Claytune"
 Comment1 ""
 Comment2 ""
