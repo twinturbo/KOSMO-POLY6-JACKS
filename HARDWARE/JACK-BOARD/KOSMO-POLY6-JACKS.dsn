@@ -3,7 +3,7 @@
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "(5.1.7)-1")
+    (host_version "7.0.1")
   )
   (resolution um 10)
   (unit um)
@@ -33,156 +33,171 @@
     )
   )
   (placement
-    (component MountingHole:MountingHole_3.2mm_M3_DIN965_Pad
-      (place H2 57657 -19837 front 0 (PN MountingHole_Pad))
-      (place H4 119655 -186829 front 0 (PN MountingHole_Pad))
-      (place H3 57669 -186831 front 0 (PN MountingHole_Pad))
-      (place H1 119657 -19835 front 0 (PN MountingHole_Pad))
-    )
-    (component "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
-      (place PowerOUT1 98368 -187057 front 90 (PN Conn_02x03_Odd_Even))
-      (place PowerIN1 72973 -186988 front 90 (PN Conn_02x03_Odd_Even))
+    (component "JACK-BOARD:Jack_6.5mmLMNC"
+      (place J18 67117.000000 -177318.000000 back 180.000000 (PN GATE_OUT5))
+      (place J17 113117.000000 -177318.000000 back 180.000000 (PN PULSE_OUT5))
+      (place J16 90117.000000 -177318.000000 back 180.000000 (PN RAMP_OUT5))
+      (place J15 67117.000000 -154318.000000 back 180.000000 (PN GATE_OUT4))
+      (place J14 113117.000000 -154318.000000 back 180.000000 (PN PULSE_OUT4))
+      (place J13 90117.000000 -154318.000000 back 180.000000 (PN RAMP_OUT4))
+      (place J12 67117.000000 -131318.000000 back 180.000000 (PN GATE_OUT3))
+      (place J11 113117.000000 -131318.000000 back 180.000000 (PN PULSE_OUT3))
+      (place J10 90117.000000 -131318.000000 back 180.000000 (PN RAMP_OUT3))
+      (place J9 67117.000000 -108318.000000 back 180.000000 (PN GATE_OUT2))
+      (place J8 113117.000000 -108318.000000 back 180.000000 (PN PULSE_OUT2))
+      (place J7 90117.000000 -108318.000000 back 180.000000 (PN RAMP_OUT2))
+      (place J6 67117.000000 -85318.000000 back 180.000000 (PN GATE_OUT1))
+      (place J5 113117.000000 -85318.000000 back 180.000000 (PN PULSE_OUT1))
+      (place J4 90117.000000 -85318.000000 back 180.000000 (PN RAMP_OUT1))
+      (place J3 67117.000000 -62318.000000 back 180.000000 (PN GATE_OUT0))
+      (place J2 113117.000000 -62318.000000 back 180.000000 (PN PULSE_OUT0))
+      (place J1 90117.000000 -62318.000000 back 180.000000 (PN RAMP_OUT0))
     )
     (component "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical"
-      (place RAMP_OUT1 69538 -31435 front 0 (PN Conn_02x04_Odd_Even))
-      (place RAMP_IN1 104743 -31435 front 0 (PN Conn_02x04_Odd_Even))
-      (place PULSE_OUT1 80538 -31435 front 0 (PN Conn_02x04_Odd_Even))
-      (place PULSE_IN1 115743 -31435 front 0 (PN Conn_02x04_Odd_Even))
-      (place GATE_OUT1 58538 -31435 front 0 (PN Conn_02x04_Odd_Even))
-      (place GATE_IN1 93743 -31435 front 0 (PN Conn_02x04_Odd_Even))
+      (place GATE_OUT1 58538.000000 -31435.000000 front 0.000000 (PN Conn_02x04_Odd_Even))
+      (place PULSE_IN1 115743.000000 -31435.000000 front 0.000000 (PN Conn_02x04_Odd_Even))
+      (place PULSE_OUT1 80538.000000 -31435.000000 front 0.000000 (PN Conn_02x04_Odd_Even))
+      (place RAMP_IN1 104743.000000 -31435.000000 front 0.000000 (PN Conn_02x04_Odd_Even))
+      (place RAMP_OUT1 69538.000000 -31435.000000 front 0.000000 (PN Conn_02x04_Odd_Even))
+      (place GATE_IN1 93743.000000 -31435.000000 front 0.000000 (PN Conn_02x04_Odd_Even))
     )
-    (component "AA-ROB-FULL:Jack_6.5mmLMNC"
-      (place J18 67117 -177318 back 180 (PN GATE_OUT5))
-      (place J17 113117 -177318 back 180 (PN PULSE_OUT5))
-      (place J16 90117 -177318 back 180 (PN RAMP_OUT5))
-      (place J15 67117 -154318 back 180 (PN GATE_OUT4))
-      (place J14 113117 -154318 back 180 (PN PULSE_OUT4))
-      (place J13 90117 -154318 back 180 (PN RAMP_OUT4))
-      (place J12 67117 -131318 back 180 (PN GATE_OUT3))
-      (place J11 113117 -131318 back 180 (PN PULSE_OUT3))
-      (place J10 90117 -131318 back 180 (PN RAMP_OUT3))
-      (place J9 67117 -108318 back 180 (PN GATE_OUT2))
-      (place J8 113117 -108318 back 180 (PN PULSE_OUT2))
-      (place J7 90117 -108318 back 180 (PN RAMP_OUT2))
-      (place J6 67117 -85318 back 180 (PN GATE_OUT1))
-      (place J5 113117 -85318 back 180 (PN PULSE_OUT1))
-      (place J4 90117 -85318 back 180 (PN RAMP_OUT1))
-      (place J3 67117 -62318 back 180 (PN GATE_OUT0))
-      (place J2 113117 -62318 back 180 (PN PULSE_OUT0))
-      (place J1 90117 -62318 back 180 (PN RAMP_OUT0))
+    (component MountingHole:MountingHole_3.2mm_M3_DIN965_Pad
+      (place H1 119657.000000 -19835.000000 front 0.000000 (PN MountingHole_Pad))
+      (place H2 57657.000000 -19837.000000 front 0.000000 (PN MountingHole_Pad))
+      (place H3 57669.000000 -186831.000000 front 0.000000 (PN MountingHole_Pad))
+      (place H4 119655.000000 -186829.000000 front 0.000000 (PN MountingHole_Pad))
+    )
+    (component "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
+      (place PowerIN1 72973.000000 -186988.000000 front 90.000000 (PN Conn_02x03_Odd_Even))
+      (place PowerOUT1 98368.000000 -187057.000000 front 90.000000 (PN Conn_02x03_Odd_Even))
     )
   )
   (library
-    (image MountingHole:MountingHole_3.2mm_M3_DIN965_Pad
-      (outline (path signal 50  3050 0  2967.79 -703.378  2725.58 -1368.84  2336.44 -1960.5
-            1821.33 -2446.48  1208.04 -2800.56  529.627 -3003.66  -177.342 -3044.84
-            -874.75 -2921.87  -1525 -2641.38  -2093.04 -2218.49  -2548.24 -1676
-            -2866.06 -1043.16  -3029.38 -354.083  -3029.38 354.083  -2866.06 1043.16
-            -2548.24 1676  -2093.04 2218.49  -1525 2641.38  -874.75 2921.87
-            -177.342 3044.84  529.627 3003.66  1208.04 2800.56  1821.33 2446.48
-            2336.44 1960.5  2725.58 1368.84  2967.79 703.378  3050 0))
-      (outline (path signal 150  2800 0  2718.64 -670.084  2479.28 -1301.22  2095.83 -1856.74
-            1590.58 -2304.36  992.894 -2618.05  337.503 -2779.59  -337.503 -2779.59
-            -992.894 -2618.05  -1590.58 -2304.36  -2095.83 -1856.74  -2479.28 -1301.22
-            -2718.64 -670.084  -2800 0  -2718.64 670.084  -2479.28 1301.22
-            -2095.83 1856.74  -1590.58 2304.36  -992.894 2618.05  -337.503 2779.59
-            337.503 2779.59  992.894 2618.05  1590.58 2304.36  2095.83 1856.74
-            2479.28 1301.22  2718.64 670.084  2800 0))
-      (pin Round[A]Pad_5600_um 1 0 0)
-    )
-    (image "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
-      (outline (path signal 100  -3180 4100  -2180 5100))
-      (outline (path signal 100  -2180 5100  5720 5100))
-      (outline (path signal 100  5720 5100  5720 -10180))
-      (outline (path signal 100  5720 -10180  -3180 -10180))
-      (outline (path signal 100  -3180 -10180  -3180 4100))
-      (outline (path signal 100  -3180 -490  -1980 -490))
-      (outline (path signal 100  -1980 -490  -1980 3910))
-      (outline (path signal 100  -1980 3910  4520 3910))
-      (outline (path signal 100  4520 3910  4520 -8990))
-      (outline (path signal 100  4520 -8990  -1980 -8990))
-      (outline (path signal 100  -1980 -8990  -1980 -4590))
-      (outline (path signal 100  -1980 -4590  -1980 -4590))
-      (outline (path signal 100  -1980 -4590  -3180 -4590))
-      (outline (path signal 120  -3290 5210  5830 5210))
-      (outline (path signal 120  5830 5210  5830 -10290))
-      (outline (path signal 120  5830 -10290  -3290 -10290))
-      (outline (path signal 120  -3290 -10290  -3290 5210))
-      (outline (path signal 120  -3290 -490  -1980 -490))
-      (outline (path signal 120  -1980 -490  -1980 3910))
-      (outline (path signal 120  -1980 3910  4520 3910))
-      (outline (path signal 120  4520 3910  4520 -8990))
-      (outline (path signal 120  4520 -8990  -1980 -8990))
-      (outline (path signal 120  -1980 -8990  -1980 -4590))
-      (outline (path signal 120  -1980 -4590  -1980 -4590))
-      (outline (path signal 120  -1980 -4590  -3290 -4590))
-      (outline (path signal 120  -3680 0  -4680 500))
-      (outline (path signal 120  -4680 500  -4680 -500))
-      (outline (path signal 120  -4680 -500  -3680 0))
-      (outline (path signal 50  -3680 5600  -3680 -10690))
-      (outline (path signal 50  -3680 -10690  6220 -10690))
-      (outline (path signal 50  6220 -10690  6220 5600))
-      (outline (path signal 50  6220 5600  -3680 5600))
-      (pin Round[A]Pad_1700_um 6 2540 -5080)
-      (pin Round[A]Pad_1700_um 4 2540 -2540)
-      (pin Round[A]Pad_1700_um 2 2540 0)
-      (pin Round[A]Pad_1700_um 5 0 -5080)
-      (pin Round[A]Pad_1700_um 3 0 -2540)
-      (pin RoundRect[A]Pad_1700x1700_250.951_um 1 0 0)
-    )
-    (image "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical"
-      (outline (path signal 50  6220 5600  -3680 5600))
-      (outline (path signal 50  6220 -13220  6220 5600))
-      (outline (path signal 50  -3680 -13220  6220 -13220))
-      (outline (path signal 50  -3680 5600  -3680 -13220))
-      (outline (path signal 120  -4680 -500  -3680 0))
-      (outline (path signal 120  -4680 500  -4680 -500))
-      (outline (path signal 120  -3680 0  -4680 500))
-      (outline (path signal 120  -1980 -5860  -3290 -5860))
-      (outline (path signal 120  -1980 -5860  -1980 -5860))
-      (outline (path signal 120  -1980 -11530  -1980 -5860))
-      (outline (path signal 120  4520 -11530  -1980 -11530))
-      (outline (path signal 120  4520 3910  4520 -11530))
-      (outline (path signal 120  -1980 3910  4520 3910))
-      (outline (path signal 120  -1980 -1760  -1980 3910))
-      (outline (path signal 120  -3290 -1760  -1980 -1760))
-      (outline (path signal 120  -3290 -12830  -3290 5210))
-      (outline (path signal 120  5830 -12830  -3290 -12830))
-      (outline (path signal 120  5830 5210  5830 -12830))
-      (outline (path signal 120  -3290 5210  5830 5210))
-      (outline (path signal 100  -1980 -5860  -3180 -5860))
-      (outline (path signal 100  -1980 -5860  -1980 -5860))
-      (outline (path signal 100  -1980 -11530  -1980 -5860))
-      (outline (path signal 100  4520 -11530  -1980 -11530))
-      (outline (path signal 100  4520 3910  4520 -11530))
-      (outline (path signal 100  -1980 3910  4520 3910))
-      (outline (path signal 100  -1980 -1760  -1980 3910))
-      (outline (path signal 100  -3180 -1760  -1980 -1760))
-      (outline (path signal 100  -3180 -12720  -3180 4100))
-      (outline (path signal 100  5720 -12720  -3180 -12720))
-      (outline (path signal 100  5720 5100  5720 -12720))
-      (outline (path signal 100  -2180 5100  5720 5100))
-      (outline (path signal 100  -3180 4100  -2180 5100))
-      (pin Round[A]Pad_1700_um 8 2540 -7620)
-      (pin Round[A]Pad_1700_um 6 2540 -5080)
-      (pin Round[A]Pad_1700_um 4 2540 -2540)
-      (pin Round[A]Pad_1700_um 2 2540 0)
-      (pin Round[A]Pad_1700_um 7 0 -7620)
-      (pin Round[A]Pad_1700_um 5 0 -5080)
-      (pin Round[A]Pad_1700_um 3 0 -2540)
-      (pin RoundRect[A]Pad_1700x1700_250.951_um 1 0 0)
-    )
-    (image "AA-ROB-FULL:Jack_6.5mmLMNC"
+    (image "JACK-BOARD:Jack_6.5mmLMNC"
       (outline (path signal 120  -9144 2540  6604 2540))
       (outline (path signal 120  6604 2540  6610 -11170))
       (outline (path signal 120  6604 -11176  4064 -13208))
       (outline (path signal 120  4064 -13208  -9144 -13208))
       (outline (path signal 120  -9144 -13208  -9144 2540))
-      (pin Rect[A]Pad_4500x4500_um G 4064 -9652)
-      (pin Round[A]Pad_4500_um S -1016 1016)
-      (pin Round[A]Pad_4500_um T -6985 -5842)
-      (pin Round[A]Pad_4500_um SN 5080 -2540)
       (pin Round[A]Pad_4500_um TN -3048 -11176)
+      (pin Round[A]Pad_4500_um SN 5080 -2540)
+      (pin Round[A]Pad_4500_um T -6985 -5842)
+      (pin Round[A]Pad_4500_um S -1016 1016)
+      (pin Rect[A]Pad_4500x4500_um G 4064 -9652)
+    )
+    (image "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical"
+      (outline (path signal 120  -4680 500  -4680 -500))
+      (outline (path signal 120  -4680 -500  -3680 0))
+      (outline (path signal 120  -3680 0  -4680 500))
+      (outline (path signal 120  -3290 5210  5830 5210))
+      (outline (path signal 120  -3290 -1760  -1980 -1760))
+      (outline (path signal 120  -3290 -12830  -3290 5210))
+      (outline (path signal 100  -3180 4100  -2180 5100))
+      (outline (path signal 100  -3180 -1760  -1980 -1760))
+      (outline (path signal 100  -3180 -12720  -3180 4100))
+      (outline (path signal 100  -2180 5100  5720 5100))
+      (outline (path signal 100  -1980 3910  4520 3910))
+      (outline (path signal 120  -1980 3910  4520 3910))
+      (outline (path signal 100  -1980 -1760  -1980 3910))
+      (outline (path signal 120  -1980 -1760  -1980 3910))
+      (outline (path signal 120  -1980 -5860  -3290 -5860))
+      (outline (path signal 100  -1980 -5860  -3180 -5860))
+      (outline (path signal 100  -1980 -5860  -1980 -5860))
+      (outline (path signal 120  -1980 -5860  -1980 -5860))
+      (outline (path signal 100  -1980 -11530  -1980 -5860))
+      (outline (path signal 120  -1980 -11530  -1980 -5860))
+      (outline (path signal 100  4520 3910  4520 -11530))
+      (outline (path signal 120  4520 3910  4520 -11530))
+      (outline (path signal 100  4520 -11530  -1980 -11530))
+      (outline (path signal 120  4520 -11530  -1980 -11530))
+      (outline (path signal 100  5720 5100  5720 -12720))
+      (outline (path signal 100  5720 -12720  -3180 -12720))
+      (outline (path signal 120  5830 5210  5830 -12830))
+      (outline (path signal 120  5830 -12830  -3290 -12830))
+      (outline (path signal 50  -3680 5600  -3680 -13220))
+      (outline (path signal 50  -3680 -13220  6220 -13220))
+      (outline (path signal 50  6220 5600  -3680 5600))
+      (outline (path signal 50  6220 -13220  6220 5600))
+      (pin RoundRect[A]Pad_1700x1700_250.951_um_0.000000_0 1 0 0)
+      (pin Round[A]Pad_1700_um 2 2540 0)
+      (pin Round[A]Pad_1700_um 3 0 -2540)
+      (pin Round[A]Pad_1700_um 4 2540 -2540)
+      (pin Round[A]Pad_1700_um 5 0 -5080)
+      (pin Round[A]Pad_1700_um 6 2540 -5080)
+      (pin Round[A]Pad_1700_um 7 0 -7620)
+      (pin Round[A]Pad_1700_um 8 2540 -7620)
+    )
+    (image MountingHole:MountingHole_3.2mm_M3_DIN965_Pad
+      (outline (path signal 150  2800 0  2781.07 -325.06  2724.53 -645.724  2631.14 -957.656
+            2502.17 -1256.64  2339.37 -1538.62  2144.92 -1799.81  1921.48 -2036.65
+            1672.04 -2245.95  1400 -2424.87  1109.02 -2571.01  803.049 -2682.37
+            486.215 -2757.46  162.806 -2795.26  -162.806 -2795.26  -486.215 -2757.46
+            -803.049 -2682.37  -1109.02 -2571.01  -1400 -2424.87  -1672.04 -2245.95
+            -1921.48 -2036.65  -2144.92 -1799.81  -2339.37 -1538.62  -2502.17 -1256.64
+            -2631.14 -957.656  -2724.53 -645.724  -2781.07 -325.06  -2800 0
+            -2781.07 325.06  -2724.53 645.724  -2631.14 957.656  -2502.17 1256.64
+            -2339.37 1538.62  -2144.92 1799.81  -1921.48 2036.65  -1672.04 2245.95
+            -1400 2424.87  -1109.02 2571.01  -803.049 2682.37  -486.215 2757.46
+            -162.806 2795.26  162.806 2795.26  486.215 2757.46  803.049 2682.37
+            1109.02 2571.01  1400 2424.87  1672.04 2245.95  1921.48 2036.65
+            2144.92 1799.81  2339.37 1538.62  2502.17 1256.64  2631.14 957.656
+            2724.53 645.724  2781.07 325.06  2800 0))
+      (outline (path signal 50  3050 0  3030.82 -341.492  2973.53 -678.689  2878.84 -1007.35
+            2747.95 -1323.35  2582.51 -1622.7  2384.59 -1901.64  2156.68 -2156.68
+            1901.64 -2384.59  1622.7 -2582.51  1323.35 -2747.95  1007.35 -2878.84
+            678.689 -2973.53  341.492 -3030.82  0 -3050  -341.492 -3030.82
+            -678.689 -2973.53  -1007.35 -2878.84  -1323.35 -2747.95  -1622.7 -2582.51
+            -1901.64 -2384.59  -2156.68 -2156.68  -2384.59 -1901.64  -2582.51 -1622.7
+            -2747.95 -1323.35  -2878.84 -1007.35  -2973.53 -678.689  -3030.82 -341.492
+            -3050 0  -3030.82 341.492  -2973.53 678.689  -2878.84 1007.35
+            -2747.95 1323.35  -2582.51 1622.7  -2384.59 1901.64  -2156.68 2156.68
+            -1901.64 2384.59  -1622.7 2582.51  -1323.35 2747.95  -1007.35 2878.84
+            -678.689 2973.53  -341.492 3030.82  0 3050  341.492 3030.82
+            678.689 2973.53  1007.35 2878.84  1323.35 2747.95  1622.7 2582.51
+            1901.64 2384.59  2156.68 2156.68  2384.59 1901.64  2582.51 1622.7
+            2747.95 1323.35  2878.84 1007.35  2973.53 678.689  3030.82 341.492
+            3050 0))
+      (pin Round[A]Pad_5600_um 1 0 0)
+    )
+    (image "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
+      (outline (path signal 120  -4680 500  -4680 -500))
+      (outline (path signal 120  -4680 -500  -3680 0))
+      (outline (path signal 120  -3680 0  -4680 500))
+      (outline (path signal 120  -3290 5210  5830 5210))
+      (outline (path signal 120  -3290 -490  -1980 -490))
+      (outline (path signal 120  -3290 -10290  -3290 5210))
+      (outline (path signal 100  -3180 4100  -2180 5100))
+      (outline (path signal 100  -3180 -490  -1980 -490))
+      (outline (path signal 100  -3180 -10180  -3180 4100))
+      (outline (path signal 100  -2180 5100  5720 5100))
+      (outline (path signal 100  -1980 3910  4520 3910))
+      (outline (path signal 120  -1980 3910  4520 3910))
+      (outline (path signal 100  -1980 -490  -1980 3910))
+      (outline (path signal 120  -1980 -490  -1980 3910))
+      (outline (path signal 120  -1980 -4590  -3290 -4590))
+      (outline (path signal 100  -1980 -4590  -3180 -4590))
+      (outline (path signal 100  -1980 -4590  -1980 -4590))
+      (outline (path signal 120  -1980 -4590  -1980 -4590))
+      (outline (path signal 100  -1980 -8990  -1980 -4590))
+      (outline (path signal 120  -1980 -8990  -1980 -4590))
+      (outline (path signal 100  4520 3910  4520 -8990))
+      (outline (path signal 120  4520 3910  4520 -8990))
+      (outline (path signal 100  4520 -8990  -1980 -8990))
+      (outline (path signal 120  4520 -8990  -1980 -8990))
+      (outline (path signal 100  5720 5100  5720 -10180))
+      (outline (path signal 100  5720 -10180  -3180 -10180))
+      (outline (path signal 120  5830 5210  5830 -10290))
+      (outline (path signal 120  5830 -10290  -3290 -10290))
+      (outline (path signal 50  -3680 5600  -3680 -10690))
+      (outline (path signal 50  -3680 -10690  6220 -10690))
+      (outline (path signal 50  6220 5600  -3680 5600))
+      (outline (path signal 50  6220 -10690  6220 5600))
+      (pin RoundRect[A]Pad_1700x1700_250.951_um_0.000000_0 1 0 0)
+      (pin Round[A]Pad_1700_um 2 2540 0)
+      (pin Round[A]Pad_1700_um 3 0 -2540)
+      (pin Round[A]Pad_1700_um 4 2540 -2540)
+      (pin Round[A]Pad_1700_um 5 0 -5080)
+      (pin Round[A]Pad_1700_um 6 2540 -5080)
     )
     (padstack Round[A]Pad_1700_um
       (shape (circle F.Cu 1700))
@@ -199,29 +214,19 @@
       (shape (circle B.Cu 5600))
       (attach off)
     )
-    (padstack RoundRect[A]Pad_1700x1700_250.951_um
-      (shape (polygon F.Cu 0  643.577 847.138  685.83 835.817  725.475 817.33  761.308 792.24
-            792.24 761.308  817.33 725.476  835.817 685.83  847.138 643.577
-            850.951 600  850.951 -600  847.138 -643.577  835.817 -685.83
-            817.33 -725.475  792.24 -761.308  761.308 -792.24  725.476 -817.33
-            685.83 -835.817  643.577 -847.138  600 -850.951  -600 -850.951
-            -643.577 -847.138  -685.83 -835.817  -725.475 -817.33  -761.308 -792.24
-            -792.24 -761.308  -817.33 -725.476  -835.817 -685.83  -847.138 -643.577
-            -850.951 -600  -850.951 600  -847.138 643.577  -835.817 685.83
-            -817.33 725.475  -792.24 761.308  -761.308 792.24  -725.476 817.33
-            -685.83 835.817  -643.577 847.138  -600 850.951  600 850.951
-            643.577 847.138))
-      (shape (polygon B.Cu 0  643.577 847.138  685.83 835.817  725.475 817.33  761.308 792.24
-            792.24 761.308  817.33 725.476  835.817 685.83  847.138 643.577
-            850.951 600  850.951 -600  847.138 -643.577  835.817 -685.83
-            817.33 -725.475  792.24 -761.308  761.308 -792.24  725.476 -817.33
-            685.83 -835.817  643.577 -847.138  600 -850.951  -600 -850.951
-            -643.577 -847.138  -685.83 -835.817  -725.475 -817.33  -761.308 -792.24
-            -792.24 -761.308  -817.33 -725.476  -835.817 -685.83  -847.138 -643.577
-            -850.951 -600  -850.951 600  -847.138 643.577  -835.817 685.83
-            -817.33 725.475  -792.24 761.308  -761.308 792.24  -725.476 817.33
-            -685.83 835.817  -643.577 847.138  -600 850.951  600 850.951
-            643.577 847.138))
+    (padstack RoundRect[A]Pad_1700x1700_250.951_um_0.000000_0
+      (shape (polygon F.Cu 0  -850.951 600  -831.848 696.035  -777.449 777.449  -696.035 831.848
+            -599.999 850.95  600 850.951  696.035 831.848  777.449 777.449
+            831.848 696.035  850.95 599.999  850.951 -600  831.848 -696.035
+            777.449 -777.449  696.035 -831.848  599.999 -850.95  -600 -850.951
+            -696.035 -831.848  -777.449 -777.449  -831.848 -696.035  -850.95 -599.999
+            -850.951 600))
+      (shape (polygon B.Cu 0  -850.951 600  -831.848 696.035  -777.449 777.449  -696.035 831.848
+            -599.999 850.95  600 850.951  696.035 831.848  777.449 777.449
+            831.848 696.035  850.95 599.999  850.951 -600  831.848 -696.035
+            777.449 -777.449  696.035 -831.848  599.999 -850.95  -600 -850.951
+            -696.035 -831.848  -777.449 -777.449  -831.848 -696.035  -850.95 -599.999
+            -850.951 600))
       (attach off)
     )
     (padstack Rect[A]Pad_4500x4500_um
@@ -237,16 +242,16 @@
   )
   (network
     (net "GND-S"
-      (pins H2-1 PowerOUT1-6 PowerOUT1-5 PowerIN1-6 PowerIN1-5 H4-1 H3-1 H1-1 RAMP_OUT1-8
-        RAMP_OUT1-7 RAMP_IN1-8 RAMP_IN1-7 PULSE_OUT1-8 PULSE_OUT1-7 PULSE_IN1-8 PULSE_IN1-7
-        J18-G J17-G J16-G J15-G J14-G J13-G J12-G J11-G J10-G J9-G J8-G J7-G J6-G
-        J5-G J4-G J3-G J2-G J1-G GATE_OUT1-8 GATE_OUT1-7 GATE_IN1-8 GATE_IN1-7)
+      (pins J18-G J17-G J16-G J15-G J14-G J13-G J12-G J11-G J10-G J9-G J8-G J7-G J6-G
+        J5-G J4-G J3-G J2-G J1-G GATE_OUT1-7 GATE_OUT1-8 PULSE_IN1-7 PULSE_IN1-8 PULSE_OUT1-7
+        PULSE_OUT1-8 RAMP_IN1-7 RAMP_IN1-8 RAMP_OUT1-7 RAMP_OUT1-8 PowerIN1-5 PowerIN1-6
+        PowerOUT1-5 PowerOUT1-6 GATE_IN1-7 GATE_IN1-8)
     )
     (net "GATE_OUT2-S"
-      (pins J18-T J9-T GATE_IN1-6 GATE_IN1-5)
+      (pins J9-T GATE_IN1-5)
     )
     (net "GATE_OUT1-S"
-      (pins J15-T J6-T GATE_IN1-4 GATE_IN1-3)
+      (pins J6-T GATE_IN1-3)
     )
     (net "GATE_OUT3-S"
       (pins J12-T GATE_IN1-2)
@@ -254,155 +259,47 @@
     (net "GATE_OUT0-S"
       (pins J3-T GATE_IN1-1)
     )
-    (net "Net-(J1-PadS)"
-      (pins J1-S)
-    )
     (net "RAMP_OUT0-S"
-      (pins RAMP_IN1-1 J1-T)
-    )
-    (net "Net-(J1-PadSN)"
-      (pins J1-SN)
-    )
-    (net "Net-(J2-PadS)"
-      (pins J2-S)
+      (pins J1-T RAMP_IN1-1)
     )
     (net "PULSE_OUT0-S"
-      (pins PULSE_IN1-1 J2-T)
-    )
-    (net "Net-(J2-PadSN)"
-      (pins J2-SN)
-    )
-    (net "Net-(J3-PadS)"
-      (pins J3-S)
-    )
-    (net "Net-(J3-PadSN)"
-      (pins J3-SN)
-    )
-    (net "Net-(J4-PadS)"
-      (pins J4-S)
+      (pins J2-T PULSE_IN1-1)
     )
     (net "RAMP_OUT1-S"
-      (pins RAMP_IN1-3 J4-T)
-    )
-    (net "Net-(J4-PadSN)"
-      (pins J4-SN)
-    )
-    (net "Net-(J5-PadS)"
-      (pins J5-S)
+      (pins J4-T RAMP_IN1-3)
     )
     (net "PULSE_OUT1-S"
-      (pins PULSE_IN1-3 J5-T)
-    )
-    (net "Net-(J5-PadSN)"
-      (pins J5-SN)
-    )
-    (net "Net-(J6-PadS)"
-      (pins J6-S)
-    )
-    (net "Net-(J6-PadSN)"
-      (pins J6-SN)
-    )
-    (net "Net-(J7-PadS)"
-      (pins J7-S)
+      (pins J5-T PULSE_IN1-3)
     )
     (net "RAMP_OUT2-S"
-      (pins RAMP_IN1-5 J7-T)
-    )
-    (net "Net-(J7-PadSN)"
-      (pins J7-SN)
-    )
-    (net "Net-(J8-PadS)"
-      (pins J8-S)
+      (pins J7-T RAMP_IN1-5)
     )
     (net "PULSE_OUT2-S"
-      (pins PULSE_IN1-5 J8-T)
-    )
-    (net "Net-(J8-PadSN)"
-      (pins J8-SN)
-    )
-    (net "Net-(J9-PadS)"
-      (pins J9-S)
-    )
-    (net "Net-(J9-PadSN)"
-      (pins J9-SN)
-    )
-    (net "Net-(J10-PadS)"
-      (pins J10-S)
+      (pins J8-T PULSE_IN1-5)
     )
     (net "RAMP_OUT3-S"
-      (pins RAMP_IN1-2 J10-T)
-    )
-    (net "Net-(J10-PadSN)"
-      (pins J10-SN)
-    )
-    (net "Net-(J11-PadS)"
-      (pins J11-S)
+      (pins J10-T RAMP_IN1-2)
     )
     (net "PULSE_OUT3-S"
-      (pins PULSE_IN1-2 J11-T)
-    )
-    (net "Net-(J11-PadSN)"
-      (pins J11-SN)
-    )
-    (net "Net-(J12-PadS)"
-      (pins J12-S)
-    )
-    (net "Net-(J12-PadSN)"
-      (pins J12-SN)
-    )
-    (net "Net-(J13-PadS)"
-      (pins J13-S)
+      (pins J11-T PULSE_IN1-2)
     )
     (net "RAMP_OUT4-S"
-      (pins RAMP_IN1-4 J13-T)
-    )
-    (net "Net-(J13-PadSN)"
-      (pins J13-SN)
-    )
-    (net "Net-(J14-PadS)"
-      (pins J14-S)
+      (pins J13-T RAMP_IN1-4)
     )
     (net "PULSE_OUT4-S"
-      (pins PULSE_IN1-4 J14-T)
-    )
-    (net "Net-(J14-PadSN)"
-      (pins J14-SN)
-    )
-    (net "Net-(J15-PadS)"
-      (pins J15-S)
-    )
-    (net "Net-(J15-PadSN)"
-      (pins J15-SN)
-    )
-    (net "Net-(J16-PadS)"
-      (pins J16-S)
-    )
-    (net "Net-(J16-PadSN)"
-      (pins J16-SN)
-    )
-    (net "Net-(J17-PadS)"
-      (pins J17-S)
+      (pins J14-T PULSE_IN1-4)
     )
     (net "PULSE_OUT5-S"
-      (pins PULSE_IN1-6 J17-T)
-    )
-    (net "Net-(J17-PadSN)"
-      (pins J17-SN)
-    )
-    (net "Net-(J18-PadS)"
-      (pins J18-S)
-    )
-    (net "Net-(J18-PadSN)"
-      (pins J18-SN)
+      (pins J17-T PULSE_IN1-6)
     )
     (net "RAMP_OUT5-S"
-      (pins RAMP_IN1-6 J16-T)
+      (pins J16-T RAMP_IN1-6)
     )
     (net "GATE_OUT2-N"
-      (pins J18-TN J9-TN GATE_OUT1-6 GATE_OUT1-5)
+      (pins J9-TN GATE_OUT1-5)
     )
     (net "GATE_OUT1-N"
-      (pins J15-TN J6-TN GATE_OUT1-4 GATE_OUT1-3)
+      (pins J6-TN GATE_OUT1-3)
     )
     (net "GATE_OUT3-N"
       (pins J12-TN GATE_OUT1-2)
@@ -411,69 +308,196 @@
       (pins J3-TN GATE_OUT1-1)
     )
     (net "RAMP_OUT0-N"
-      (pins RAMP_OUT1-1 J1-TN)
+      (pins J1-TN RAMP_OUT1-1)
     )
     (net "PULSE_OUT0-N"
-      (pins PULSE_OUT1-1 J2-TN)
+      (pins J2-TN PULSE_OUT1-1)
     )
     (net "RAMP_OUT1-N"
-      (pins RAMP_OUT1-3 J4-TN)
+      (pins J4-TN RAMP_OUT1-3)
     )
     (net "PULSE_OUT1-N"
-      (pins PULSE_OUT1-3 J5-TN)
+      (pins J5-TN PULSE_OUT1-3)
     )
     (net "RAMP_OUT2-N"
-      (pins RAMP_OUT1-5 J7-TN)
+      (pins J7-TN RAMP_OUT1-5)
     )
     (net "PULSE_OUT2-N"
-      (pins PULSE_OUT1-5 J8-TN)
+      (pins J8-TN PULSE_OUT1-5)
     )
     (net "RAMP_OUT3-N"
-      (pins RAMP_OUT1-2 J10-TN)
+      (pins J10-TN RAMP_OUT1-2)
     )
     (net "PULSE_OUT3-N"
-      (pins PULSE_OUT1-2 J11-TN)
+      (pins J11-TN PULSE_OUT1-2)
     )
     (net "RAMP_OUT4-N"
-      (pins RAMP_OUT1-4 J13-TN)
+      (pins J13-TN RAMP_OUT1-4)
     )
     (net "PULSE_OUT4-N"
-      (pins PULSE_OUT1-4 J14-TN)
+      (pins J14-TN PULSE_OUT1-4)
     )
     (net "RAMP_OUT5-N"
-      (pins RAMP_OUT1-6 J16-TN)
+      (pins J16-TN RAMP_OUT1-6)
     )
     (net "PULSE_OUT5-N"
-      (pins PULSE_OUT1-6 J17-TN)
+      (pins J17-TN PULSE_OUT1-6)
     )
     (net -12V
-      (pins PowerOUT1-2 PowerIN1-2)
+      (pins PowerIN1-2 PowerOUT1-2)
     )
     (net +3V3
-      (pins PowerOUT1-4 PowerIN1-4)
+      (pins PowerIN1-4 PowerOUT1-4)
     )
     (net +12V
-      (pins PowerOUT1-1 PowerIN1-1)
+      (pins PowerIN1-1 PowerOUT1-1)
     )
     (net +5V
-      (pins PowerOUT1-3 PowerIN1-3)
+      (pins PowerIN1-3 PowerOUT1-3)
+    )
+    (net "Net-(H1-Pad1)"
+      (pins H1-1 H2-1 H3-1 H4-1)
+    )
+    (net "unconnected-(J1-PadSN)"
+      (pins J1-SN)
+    )
+    (net "unconnected-(J1-PadS)"
+      (pins J1-S)
+    )
+    (net "unconnected-(J2-PadSN)"
+      (pins J2-SN)
+    )
+    (net "unconnected-(J2-PadS)"
+      (pins J2-S)
+    )
+    (net "unconnected-(J3-PadSN)"
+      (pins J3-SN)
+    )
+    (net "unconnected-(J3-PadS)"
+      (pins J3-S)
+    )
+    (net "unconnected-(J4-PadSN)"
+      (pins J4-SN)
+    )
+    (net "unconnected-(J4-PadS)"
+      (pins J4-S)
+    )
+    (net "unconnected-(J5-PadSN)"
+      (pins J5-SN)
+    )
+    (net "unconnected-(J5-PadS)"
+      (pins J5-S)
+    )
+    (net "unconnected-(J6-PadSN)"
+      (pins J6-SN)
+    )
+    (net "unconnected-(J6-PadS)"
+      (pins J6-S)
+    )
+    (net "unconnected-(J7-PadSN)"
+      (pins J7-SN)
+    )
+    (net "unconnected-(J7-PadS)"
+      (pins J7-S)
+    )
+    (net "unconnected-(J8-PadSN)"
+      (pins J8-SN)
+    )
+    (net "unconnected-(J8-PadS)"
+      (pins J8-S)
+    )
+    (net "unconnected-(J9-PadSN)"
+      (pins J9-SN)
+    )
+    (net "unconnected-(J9-PadS)"
+      (pins J9-S)
+    )
+    (net "unconnected-(J10-PadSN)"
+      (pins J10-SN)
+    )
+    (net "unconnected-(J10-PadS)"
+      (pins J10-S)
+    )
+    (net "unconnected-(J11-PadSN)"
+      (pins J11-SN)
+    )
+    (net "unconnected-(J11-PadS)"
+      (pins J11-S)
+    )
+    (net "unconnected-(J12-PadSN)"
+      (pins J12-SN)
+    )
+    (net "unconnected-(J12-PadS)"
+      (pins J12-S)
+    )
+    (net "unconnected-(J13-PadSN)"
+      (pins J13-SN)
+    )
+    (net "unconnected-(J13-PadS)"
+      (pins J13-S)
+    )
+    (net "unconnected-(J14-PadSN)"
+      (pins J14-SN)
+    )
+    (net "unconnected-(J14-PadS)"
+      (pins J14-S)
+    )
+    (net "unconnected-(J15-PadSN)"
+      (pins J15-SN)
+    )
+    (net "unconnected-(J15-PadS)"
+      (pins J15-S)
+    )
+    (net "unconnected-(J16-PadSN)"
+      (pins J16-SN)
+    )
+    (net "unconnected-(J16-PadS)"
+      (pins J16-S)
+    )
+    (net "unconnected-(J17-PadSN)"
+      (pins J17-SN)
+    )
+    (net "unconnected-(J17-PadS)"
+      (pins J17-S)
+    )
+    (net "unconnected-(J18-PadSN)"
+      (pins J18-SN)
+    )
+    (net "unconnected-(J18-PadS)"
+      (pins J18-S)
+    )
+    (net "GATE_OUT4-S"
+      (pins J15-T GATE_IN1-4)
+    )
+    (net "GATE_OUT5-S"
+      (pins J18-T GATE_IN1-6)
+    )
+    (net "GATE_OUT4-N"
+      (pins J15-TN GATE_OUT1-4)
+    )
+    (net "GATE_OUT5-N"
+      (pins J18-TN GATE_OUT1-6)
     )
     (class kicad_default "" +12V +3V3 +5V -12V "GATE_OUT0-N" "GATE_OUT0-S"
       "GATE_OUT1-N" "GATE_OUT1-S" "GATE_OUT2-N" "GATE_OUT2-S" "GATE_OUT3-N"
-      "GATE_OUT3-S" "GND-S" "Net-(J1-PadS)" "Net-(J1-PadSN)" "Net-(J10-PadS)"
-      "Net-(J10-PadSN)" "Net-(J11-PadS)" "Net-(J11-PadSN)" "Net-(J12-PadS)"
-      "Net-(J12-PadSN)" "Net-(J13-PadS)" "Net-(J13-PadSN)" "Net-(J14-PadS)"
-      "Net-(J14-PadSN)" "Net-(J15-PadS)" "Net-(J15-PadSN)" "Net-(J16-PadS)"
-      "Net-(J16-PadSN)" "Net-(J17-PadS)" "Net-(J17-PadSN)" "Net-(J18-PadS)"
-      "Net-(J18-PadSN)" "Net-(J2-PadS)" "Net-(J2-PadSN)" "Net-(J3-PadS)" "Net-(J3-PadSN)"
-      "Net-(J4-PadS)" "Net-(J4-PadSN)" "Net-(J5-PadS)" "Net-(J5-PadSN)" "Net-(J6-PadS)"
-      "Net-(J6-PadSN)" "Net-(J7-PadS)" "Net-(J7-PadSN)" "Net-(J8-PadS)" "Net-(J8-PadSN)"
-      "Net-(J9-PadS)" "Net-(J9-PadSN)" "PULSE_OUT0-N" "PULSE_OUT0-S" "PULSE_OUT1-N"
+      "GATE_OUT3-S" "GATE_OUT4-N" "GATE_OUT4-S" "GATE_OUT5-N" "GATE_OUT5-S"
+      "GND-S" "Net-(H1-Pad1)" "PULSE_OUT0-N" "PULSE_OUT0-S" "PULSE_OUT1-N"
       "PULSE_OUT1-S" "PULSE_OUT2-N" "PULSE_OUT2-S" "PULSE_OUT3-N" "PULSE_OUT3-S"
       "PULSE_OUT4-N" "PULSE_OUT4-S" "PULSE_OUT5-N" "PULSE_OUT5-S" "RAMP_OUT0-N"
       "RAMP_OUT0-S" "RAMP_OUT1-N" "RAMP_OUT1-S" "RAMP_OUT2-N" "RAMP_OUT2-S"
       "RAMP_OUT3-N" "RAMP_OUT3-S" "RAMP_OUT4-N" "RAMP_OUT4-S" "RAMP_OUT5-N"
-      "RAMP_OUT5-S"
+      "RAMP_OUT5-S" "unconnected-(J1-PadS)" "unconnected-(J1-PadSN)" "unconnected-(J10-PadS)"
+      "unconnected-(J10-PadSN)" "unconnected-(J11-PadS)" "unconnected-(J11-PadSN)"
+      "unconnected-(J12-PadS)" "unconnected-(J12-PadSN)" "unconnected-(J13-PadS)"
+      "unconnected-(J13-PadSN)" "unconnected-(J14-PadS)" "unconnected-(J14-PadSN)"
+      "unconnected-(J15-PadS)" "unconnected-(J15-PadSN)" "unconnected-(J16-PadS)"
+      "unconnected-(J16-PadSN)" "unconnected-(J17-PadS)" "unconnected-(J17-PadSN)"
+      "unconnected-(J18-PadS)" "unconnected-(J18-PadSN)" "unconnected-(J2-PadS)"
+      "unconnected-(J2-PadSN)" "unconnected-(J3-PadS)" "unconnected-(J3-PadSN)"
+      "unconnected-(J4-PadS)" "unconnected-(J4-PadSN)" "unconnected-(J5-PadS)"
+      "unconnected-(J5-PadSN)" "unconnected-(J6-PadS)" "unconnected-(J6-PadSN)"
+      "unconnected-(J7-PadS)" "unconnected-(J7-PadSN)" "unconnected-(J8-PadS)"
+      "unconnected-(J8-PadSN)" "unconnected-(J9-PadS)" "unconnected-(J9-PadSN)"
       (circuit
         (use_via Via[0-1]_800:400_um)
       )

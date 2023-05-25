@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 1777)
+    (start_pass_no 2612)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -63,16 +63,16 @@
     )
   )
   (class "kicad_default"
-    "GND-S" "GATE_OUT2-S" "GATE_OUT1-S" "GATE_OUT3-S" "GATE_OUT0-S" "Net-(J1-PadS)" "RAMP_OUT0-S" "Net-(J1-PadSN)"
-    "Net-(J2-PadS)" "PULSE_OUT0-S" "Net-(J2-PadSN)" "Net-(J3-PadS)" "Net-(J3-PadSN)" "Net-(J4-PadS)" "RAMP_OUT1-S" "Net-(J4-PadSN)"
-    "Net-(J5-PadS)" "PULSE_OUT1-S" "Net-(J5-PadSN)" "Net-(J6-PadS)" "Net-(J6-PadSN)" "Net-(J7-PadS)" "RAMP_OUT2-S" "Net-(J7-PadSN)"
-    "Net-(J8-PadS)" "PULSE_OUT2-S" "Net-(J8-PadSN)" "Net-(J9-PadS)" "Net-(J9-PadSN)" "Net-(J10-PadS)" "RAMP_OUT3-S" "Net-(J10-PadSN)"
-    "Net-(J11-PadS)" "PULSE_OUT3-S" "Net-(J11-PadSN)" "Net-(J12-PadS)" "Net-(J12-PadSN)" "Net-(J13-PadS)" "RAMP_OUT4-S" "Net-(J13-PadSN)"
-    "Net-(J14-PadS)" "PULSE_OUT4-S" "Net-(J14-PadSN)" "Net-(J15-PadS)" "Net-(J15-PadSN)" "Net-(J16-PadS)" "Net-(J16-PadSN)" "Net-(J17-PadS)"
-    "PULSE_OUT5-S" "Net-(J17-PadSN)" "Net-(J18-PadS)" "Net-(J18-PadSN)" "RAMP_OUT5-S" "GATE_OUT2-N" "GATE_OUT1-N" "GATE_OUT3-N"
-    "GATE_OUT0-N" "RAMP_OUT0-N" "PULSE_OUT0-N" "RAMP_OUT1-N" "PULSE_OUT1-N" "RAMP_OUT2-N" "PULSE_OUT2-N" "RAMP_OUT3-N"
-    "PULSE_OUT3-N" "RAMP_OUT4-N" "PULSE_OUT4-N" "RAMP_OUT5-N" "PULSE_OUT5-N" "-12V" +3V3 +12V
-    +5V
+    "GND-S" "GATE_OUT2-S" "GATE_OUT1-S" "GATE_OUT3-S" "GATE_OUT0-S" "RAMP_OUT0-S" "PULSE_OUT0-S" "RAMP_OUT1-S"
+    "PULSE_OUT1-S" "RAMP_OUT2-S" "PULSE_OUT2-S" "RAMP_OUT3-S" "PULSE_OUT3-S" "RAMP_OUT4-S" "PULSE_OUT4-S" "PULSE_OUT5-S"
+    "RAMP_OUT5-S" "GATE_OUT2-N" "GATE_OUT1-N" "GATE_OUT3-N" "GATE_OUT0-N" "RAMP_OUT0-N" "PULSE_OUT0-N" "RAMP_OUT1-N"
+    "PULSE_OUT1-N" "RAMP_OUT2-N" "PULSE_OUT2-N" "RAMP_OUT3-N" "PULSE_OUT3-N" "RAMP_OUT4-N" "PULSE_OUT4-N" "RAMP_OUT5-N"
+    "PULSE_OUT5-N" "-12V" +3V3 +12V +5V "Net-(H1-Pad1)" "unconnected-(J1-PadSN)" "unconnected-(J1-PadS)"
+    "unconnected-(J2-PadSN)" "unconnected-(J2-PadS)" "unconnected-(J3-PadSN)" "unconnected-(J3-PadS)" "unconnected-(J4-PadSN)" "unconnected-(J4-PadS)" "unconnected-(J5-PadSN)" "unconnected-(J5-PadS)"
+    "unconnected-(J6-PadSN)" "unconnected-(J6-PadS)" "unconnected-(J7-PadSN)" "unconnected-(J7-PadS)" "unconnected-(J8-PadSN)" "unconnected-(J8-PadS)" "unconnected-(J9-PadSN)" "unconnected-(J9-PadS)"
+    "unconnected-(J10-PadSN)" "unconnected-(J10-PadS)" "unconnected-(J11-PadSN)" "unconnected-(J11-PadS)" "unconnected-(J12-PadSN)" "unconnected-(J12-PadS)" "unconnected-(J13-PadSN)" "unconnected-(J13-PadS)"
+    "unconnected-(J14-PadSN)" "unconnected-(J14-PadS)" "unconnected-(J15-PadSN)" "unconnected-(J15-PadS)" "unconnected-(J16-PadSN)" "unconnected-(J16-PadS)" "unconnected-(J17-PadSN)" "unconnected-(J17-PadS)"
+    "unconnected-(J18-PadSN)" "unconnected-(J18-PadS)" "GATE_OUT4-S" "GATE_OUT5-S" "GATE_OUT4-N" "GATE_OUT5-N"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
